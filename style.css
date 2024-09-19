@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container {
+  background-image: url(/assets/images/old-newspaper-350376_1920.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #3e5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #decba4, #212929f2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ddc493, #1d2020c9);
+
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0px;
+}
+
+.navbar div {
+  padding: 0px 13px;
+}
+
+.navbar a {
+  text-decoration-line: none;
+  color: black;
+  font-size: x-large;
+  padding-left: 20px;
+}
+
+.card_section {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cards {
+  background-color: #ddc493;
+  width: 30vw;
+  height: 12vh;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0px 14px 20px;
+  margin: 0px auto;
+  border-radius: 8px;
+}
+
+.cards div {
+  padding: 6px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+video {
+  width: 150px;
+  border: 2px solid black;
+  margin-top: 4px;
+}
+
+.card2 {
+  grid-row: 2 / 4;
+  grid-column: 2 /3;
+}
+
+.card3 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+}
+
+.card4 {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+}
+
+.card5 {
+  grid-row: 5 / 6;
+  grid-column: 1 / 2;
+}
+
+.card6 {
+  grid-row: 6 / 7;
+  grid-column: 2 / 3;
+}
+
+.pagination_section {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination_section > a {
+  display: block;
+  text-decoration-line: none;
+  color: black;
+  font-size: 25px;
+  padding-left: 10px;
+  margin-top: 40px;
+  transition: 0.3s;
+}
+
+.pagination_section > a:hover {
+  background-color: rgb(255, 216, 62);
+}
+
+.footer_section {
+  background-color: rgba(28, 28, 28, 0.953);
+  border: 2px solid black;
+}
+
+.footer_heading {
+  color: #c7c5c5;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.customer_rivew {
+  background-color: #1d1a1acc;
+  border: 1px solid gray;
+  margin: 17px auto;
+  width: 25vw;
+  color: white;
+  border-radius: 7px;
+  min-height: 13vh;
+  transition: 0.3s;
+  filter: opacity(0.5);
+}
+
+.customer_rivew:hover {
+  background-color: rgb(32, 31, 31);
+  transform: scale(1.1);
+  filter: opacity(1);
+}
+
+.rivew_sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.customer_rivew > div {
+  padding: 9px 8px;
+}
+
+.customer_rivew > div:nth-child(2) {
+  font-size: 15px;
+  padding: 3px 10px;
+}
+
+.customer_rivew > div:nth-child(1) {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.social_links {
+  margin: 16px;
+  text-align: center;
+}
+
+.social_links > a {
+  color: grey;
+  margin: 0px 30px;
+  transition: 0.3s;
+}
+
+.social_links > a:hover {
+  color: rgb(230, 223, 223);
+}
