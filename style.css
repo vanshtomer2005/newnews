@@ -110,7 +110,7 @@ video {
   justify-content: center;
 }
 
-/* Pagination sec(2) Elements style starts from Here  */
+/* Pagination */
 .pagination_section>a {
   display: block;
   text-decoration-line: none;
@@ -127,20 +127,19 @@ video {
 /* Pagination sec(2) Elements style end Here  */
 /* Pagination sec(2) style ends Here */
 
-/*footer_section styles starts from Here */
+/*footer section */
 .footer_section {
   background-color: rgba(28, 28, 28, 0.953);
   border: 2px solid black;
 }
 
-/* footer_section First[rivews sec] or Second[social links sec] heading styles is Here only */
 .footer_heading {
   color: #c7c5c5;
   text-align: center;
   text-decoration: underline;
 }
 
-/* Customer rivews and feedback styles starts from Here */
+/* Customer rivews */
 .customer_rivew {
   background-color: #1d1a1acc;
   border: 1px solid gray;
@@ -178,16 +177,12 @@ video {
   text-decoration: underline;
   font-weight: 700;
 }
-/* Customer rivews and feedback styles starts from Here */
 
-/* Our Social Media handels styles starts from Here */
 .social_links {
   margin: 16px;
   text-align: center;
 }
 
-
-/* Our Social Media handels Elements styles starts from Here */
 .social_links>a {
   color: grey;
   margin: 0px 30px;
@@ -197,6 +192,3 @@ video {
 .social_links>a:hover {
   color: rgb(230, 223, 223);
 }
-/* Our Social Media handels Elements styles starts from Here */
-/* Our Social Media handels styles ends Here */
-/*footer_section styles ends Here */
