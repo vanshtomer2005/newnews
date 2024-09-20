@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* The main_container styles are here */
 .main_container {
   background-image: url(/assets/images/old-newspaper-350376_1920.jpg);
   background-repeat: no-repeat;
@@ -10,6 +11,7 @@
   min-height: 100vh;
 }
 
+/* The navbar styles starts from Here  */
 .navbar {
   background: #3e5151;
   /* fallback for old browsers */
@@ -25,6 +27,7 @@
   padding: 6px 0px;
 }
 
+/* The navbar Elements styles starts from Here  */
 .navbar div {
   padding: 0px 13px;
 }
@@ -35,7 +38,10 @@
   font-size: x-large;
   padding-left: 20px;
 }
+/* The navbar Elements styles ends Here  */
+/* The navbar styles end Here  */
 
+/* The News cards sec(1) styles start from Here */
 .card_section {
   margin-top: 60px;
   display: grid;
@@ -43,6 +49,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+/* Each cards styles are Here */
 .cards {
   background-color: #ddc493;
   width: 30vw;
@@ -55,7 +62,9 @@
   margin: 0px auto;
   border-radius: 8px;
 }
+/* Each cards styles ends Here */
 
+/* News cards sec(1) Elements styles are starts from Here  */
 .cards div {
   padding: 6px;
   font-size: 20px;
@@ -92,13 +101,17 @@ video {
   grid-row: 6 / 7;
   grid-column: 2 / 3;
 }
+/* News cards sec(1) Elements styles are end Here  */
+/* The News cards sec(1) styles ends Here */
 
+/* Pagination sec(2) style starts from Here */
 .pagination_section {
   display: flex;
   justify-content: center;
 }
 
-.pagination_section > a {
+/* Pagination */
+.pagination_section>a {
   display: block;
   text-decoration-line: none;
   color: black;
@@ -108,10 +121,13 @@ video {
   transition: 0.3s;
 }
 
-.pagination_section > a:hover {
+.pagination_section>a:hover {
   background-color: rgb(255, 216, 62);
 }
+/* Pagination sec(2) Elements style end Here  */
+/* Pagination sec(2) style ends Here */
 
+/*footer section */
 .footer_section {
   background-color: rgba(28, 28, 28, 0.953);
   border: 2px solid black;
@@ -123,6 +139,7 @@ video {
   text-decoration: underline;
 }
 
+/* Customer rivews */
 .customer_rivew {
   background-color: #1d1a1acc;
   border: 1px solid gray;
@@ -147,16 +164,16 @@ video {
   grid-template-rows: 1fr 1fr;
 }
 
-.customer_rivew > div {
+.customer_rivew>div {
   padding: 9px 8px;
 }
 
-.customer_rivew > div:nth-child(2) {
+.customer_rivew>div:nth-child(2) {
   font-size: 15px;
   padding: 3px 10px;
 }
 
-.customer_rivew > div:nth-child(1) {
+.customer_rivew>div:nth-child(1) {
   text-decoration: underline;
   font-weight: 700;
 }
@@ -166,12 +183,12 @@ video {
   text-align: center;
 }
 
-.social_links > a {
+.social_links>a {
   color: grey;
   margin: 0px 30px;
   transition: 0.3s;
 }
 
-.social_links > a:hover {
+.social_links>a:hover {
   color: rgb(230, 223, 223);
 }
