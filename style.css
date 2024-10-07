@@ -131,7 +131,6 @@ video {
 .footer_section {
   background-color: rgba(28, 28, 28, 0.953);
   border: none;
-  height: 32vh;
   width: 100%;
 }
 
@@ -181,7 +180,7 @@ video {
 }
 
 .social_links {
-  margin: 16px;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -270,7 +269,7 @@ video {
   }
 
   .social_links{
-    margin: 8px;
+    margin-top: 8px;
   }
 
   .social_links>a{
