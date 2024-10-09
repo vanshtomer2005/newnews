@@ -32,6 +32,11 @@ body {
   padding: 0px 13px;
 }
 
+.navbar img{
+  position: relative;
+  z-index: 1;
+}
+
 .hambuger{
   display: none;
   height: 30px;
@@ -45,7 +50,7 @@ body {
 }
 
 .links{
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .navbar a {
@@ -249,7 +254,7 @@ video {
 
   .links{
     position: absolute;
-    right: -300px;
+    left: -342px;
 
   }
 
