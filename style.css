@@ -32,9 +32,10 @@ body {
   padding: 0px 13px;
 }
 
-.navbar img{
-  position: relative;
-  z-index: 1;
+
+#cross-icon{
+  display: none;
+
 }
 
 .hambuger{
@@ -43,11 +44,6 @@ body {
   transition: all .3s;
 }
 
-.cross{
-  display: none;
-  height: 30px;
-  transition: all .3s;
-}
 
 .links{
   transition: all 0.3s;
@@ -235,9 +231,9 @@ video {
   }
 
   .navbar a {
+    display: flex;
     font-size: 0.8rem;
-    font-weight: bolder;
-    padding-left: 6px;
+    padding: 7px;
   }
 
   .navbar div{
@@ -254,8 +250,24 @@ video {
 
   .links{
     position: absolute;
-    left: -342px;
-
+    /* background-color: rgb(214 182 121); */
+    background: linear-gradient(to bottom, #ddc493, #1d2020);
+    text-decoration: underline;
+    font-weight: bold ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin: 20px; */
+    width: 94px;
+    padding: 77px;
+    top: 0px;
+    /* border-radius: 7px; */
+    gap: 19px;
+    min-height: 201px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    left: -200px;
+    z-index: 1;
+    border-radius: 3px;
   }
 
   .card_section{
@@ -272,18 +284,19 @@ video {
   }
 
   .cards div{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   video{
-    width: 96px;
+    width: 90px;
   }
 
-  .cross{
+  #cross-icon{
     position: absolute;
-    right: 0px;
- 
-    display: none;
+    width: 15px;
+    top: 6px;
+    right: 5px;
+    display: inline;
   }
 
   .pagination_section>a{
