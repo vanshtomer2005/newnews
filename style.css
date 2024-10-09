@@ -32,6 +32,22 @@ body {
   padding: 0px 13px;
 }
 
+.hambuger{
+  display: none;
+  height: 30px;
+  transition: all .3s;
+}
+
+.cross{
+  display: none;
+  height: 30px;
+  transition: all .3s;
+}
+
+.links{
+  transition: all 0.5s;
+}
+
 .navbar a {
   text-decoration-line: none;
   color: black;
@@ -43,6 +59,7 @@ body {
 
 /* The News cards sec(1) styles start from Here */
 .card_section {
+  width: 100%;
   margin-top: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -180,12 +197,22 @@ video {
 }
 
 .social_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 16px;
   text-align: center;
+  filter: invert(1);
+
+}
+
+.social_links img{
+  width: 18px;
+  padding: 9px;
 }
 
 .social_links>a {
-  color: grey;
+  color: rgb(211, 11, 11);
   margin: 0px 30px;
   transition: 0.3s;
 }
@@ -216,6 +243,16 @@ video {
     width: 35px;
   }
 
+  .hambuger{
+    display: inline;
+  }
+
+  .links{
+    position: absolute;
+    right: -300px;
+
+  }
+
   .card_section{
     display: flex;
     flex-direction: column;
@@ -224,21 +261,28 @@ video {
   }
 
   .cards{
-    width: 200px;
+    width: 70%;
     height: 40px;
     padding: 12px 0px 13px 5px;
   }
 
   .cards div{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 
   video{
-    width: 66px;
+    width: 96px;
+  }
+
+  .cross{
+    position: absolute;
+    right: 0px;
+ 
+    display: none;
   }
 
   .pagination_section>a{
-    font-size: 16px;
+    font-size: 9px;
     padding-left: 10px;
     margin-top: 29px;
     font-weight: bolder;
